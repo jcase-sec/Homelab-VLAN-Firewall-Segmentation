@@ -55,19 +55,6 @@ Segmentation is supplemented through firewall controls, remote-access restrictio
 
 ---
 
-## High-Level Architecture
-
-```text
-Administrative Devices
-        │
-        ▼
-     Firewall
-        │
- ┌──────┼──────┐
- ▼      ▼      ▼
-Infrastructure  Services  Untrusted Devices
-```
-
 The design intentionally separates systems into security zones and controls communication between those zones through policy enforcement.
 
 ---
